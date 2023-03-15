@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyTaxiTest" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/selectedLight</item>
+        <item name="colorPrimaryVariant">@color/unSelectedLight</item>
+        <item name="colorOnPrimary">@color/clickColorLight</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/startColorLight</item>
+        <item name="colorSecondaryVariant">@color/endColorLight</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorOnPrimary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

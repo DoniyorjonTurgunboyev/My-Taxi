@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Taxi Test</string>
+    <string name="mapbox_access_token">sk.eyJ1IjoiZGV2ZWxvcGVyZG9uaSIsImEiOiJjbGYwMWR1ZnMwNHR4M3FyMnRkZTh6NjBmIn0.vIz8wJjlbXnMyXBdlyO4ug</string>
+    <string name="gps_enable">Gps_Enabled</string>
+    <string name="please_turn_on_gps">Turn on gps</string>
+    <string name="ok">OK</string>
+    <string name="service_already_running">\"Ishlayapti</string>
+    <string name="service_start_successfully">Boshladi</string>
+    <string name="empty">Свободен</string>
+    <string name="busy">Занят</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
