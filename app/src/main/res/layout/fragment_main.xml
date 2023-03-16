@@ -188,6 +188,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="12dp"
+            android:elevation="3dp"
             android:src="@drawable/ic_exchange"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -198,6 +199,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
             android:fontFamily="@font/roboto_medium"
+            android:shadowColor="@color/black"
+            android:shadowDx="0.5"
+            android:shadowDy="0.5"
+            android:shadowRadius="0.5"
             android:text="Заказы"
             android:textColor="?attr/colorSecondaryVariant"
             android:textSize="16sp" />
@@ -220,6 +225,7 @@
             android:clickable="true"
             android:focusable="true"
             android:padding="12dp"
+            android:elevation="3dp"
             android:src="@drawable/ic_rocket"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -231,6 +237,10 @@
             android:layout_gravity="bottom|center"
             android:fontFamily="@font/roboto_medium"
             android:text="Бордюр"
+            android:shadowColor="@color/black"
+            android:shadowRadius="0.5"
+            android:shadowDy="0.5"
+            android:shadowDx="0.5"
             android:textColor="?attr/colorSecondaryVariant"
             android:textSize="16sp" />
     </FrameLayout>
@@ -252,6 +262,7 @@
             android:background="@drawable/bottom_back"
             android:clickable="true"
             android:focusable="true"
+            android:elevation="3dp"
             android:padding="16dp"
             android:src="@drawable/ic_tarifs"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -264,6 +275,10 @@
             android:layout_gravity="bottom|center"
             android:fontFamily="@font/roboto_medium"
             android:text="Тарифы"
+            android:shadowRadius="0.5"
+            android:shadowDy="0.5"
+            android:shadowDx="0.5"
+            android:shadowColor="@color/black"
             android:textColor="?attr/colorSecondaryVariant"
             android:textSize="16sp" />
     </FrameLayout>
