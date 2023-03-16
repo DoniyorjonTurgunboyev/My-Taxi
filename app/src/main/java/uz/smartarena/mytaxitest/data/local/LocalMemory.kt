@@ -21,4 +21,7 @@ class LocalMemory {
                 putString("latitude", value.second.toString())
             }.apply()
         }
+    var firstEnter: Boolean
+        get() = sharedPreferences.getBoolean("First", true)
+        set(value) = sharedPreferences.edit().putBoolean("First", value).apply()
 }

@@ -19,6 +19,14 @@ class Repository private constructor() {
 
     fun getLastLocation(): Pair<Double, Double> = localMemory.lastLocation
 
+    fun getIsFirst(): Boolean {
+        return localMemory.firstEnter
+    }
+
+    fun setIsFirst(value: Boolean) {
+        localMemory.firstEnter = value
+    }
+
     companion object {
         private lateinit var instance: Repository
         fun getInstance(): Repository {

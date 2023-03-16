@@ -10,6 +10,6 @@ interface LocationDao {
     @Insert
     fun saveLocation(location: Location)
 
-    @Query("Select * from Location Limit 100")
+    @Query("Select * from Location order by id desc")
     suspend fun getAllLocations(): List<Location>
 }

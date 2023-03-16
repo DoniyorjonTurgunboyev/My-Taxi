@@ -11,13 +11,15 @@ interface MainViewModel {
     val requestPermissionLiveData: LiveData<Unit>
     val setLightTeme: LiveData<Unit>
     val setDarkTeme: LiveData<Unit>
-    val setlocations: LiveData<Set<Location>>
-    fun startService(isPermissionGranted: Boolean)
+    val setLocations: LiveData<Set<Location>>
+    val removeLocations: LiveData<Set<Location>>
+    fun startService()
     fun clickZoomIn()
     fun clickZoomOut()
     fun changeCameraPosition(zoom: Double)
     fun setLastLocation(location: Location)
-    fun clickMyLocation()
+    fun clickMyLocation(isGranted:Boolean)
     fun saveLastLocation()
     fun changeTheme(mode: Mode)
+    fun clickHistoryShow()
 }
