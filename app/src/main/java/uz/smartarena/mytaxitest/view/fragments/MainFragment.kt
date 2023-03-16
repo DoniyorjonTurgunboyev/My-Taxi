@@ -86,12 +86,12 @@ class MainFragment : Fragment(R.layout.fragment_main) {
                 linear()
                 zoom()
                 stop {
-                    literal(1)
+                    literal(5)
                     literal(0.3)
                 }
                 stop {
                     literal(20.0)
-                    literal(1)
+                    literal(2)
                 }
             }.toJson()
         )
